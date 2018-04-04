@@ -1,5 +1,9 @@
 # Working with Google Cloud
 
+Source:
+
+http://storm.cis.fordham.edu/ji/cisc5550/
+
 Files copied from Cloud Computing class:
 
 1. templates/index.html
@@ -7,11 +11,6 @@ Files copied from Cloud Computing class:
 2. todolist.db
 
 3. todolist.py
-
-Source:
-
-http://storm.cis.fordham.edu/ji/cisc5550/
-
 
 ### Script to create a VM on Google Cloud Platform and run a Flask app automatically:
 
