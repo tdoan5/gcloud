@@ -1,4 +1,4 @@
-# gcloud
+# Working with Google Cloud
 
 Files copied from Cloud Computing class:
 
@@ -11,3 +11,8 @@ Files copied from Cloud Computing class:
 Source:
 
 http://storm.cis.fordham.edu/ji/cisc5550/
+
+
+# Script to create a VM on Google Cloud Platform and run a Flask app automatically:
+
+4. Done! ... will be availble as soon as possible!
