@@ -13,6 +13,6 @@ Source:
 http://storm.cis.fordham.edu/ji/cisc5550/
 
 
-# Script to create a VM on Google Cloud Platform and run a Flask app automatically:
+### Script to create a VM on Google Cloud Platform and run a Flask app automatically:
 
 4. Done! ... will be availble as soon as possible!
