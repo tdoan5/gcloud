@@ -13,13 +13,13 @@ pip3 install --upgrade flask
 # add -N so that wget do not duplicate copied files when reset 
 # copy necessary files
 sudo wget -N --directory-prefix=$path/templates/ \
-https://raw.githubusercontent.com/tdoan5/gcloud/master/templates/index.html
+https://raw.githubusercontent.com/tdoan5/gcloud/port_5000/templates/index.html
 
 sudo wget -N --directory-prefix=$path/ \
-https://raw.githubusercontent.com/tdoan5/gcloud/master/todolist.db
+https://raw.githubusercontent.com/tdoan5/gcloud/port_5000/todolist.db
 
 sudo wget -N --directory-prefix=$path/ \
 https://raw.githubusercontent.com/tdoan5/gcloud/port_5000/todolist.py
 
 # launch the app
-sudo python3 todolist.py'
+python3 todolist.py'
