@@ -18,4 +18,4 @@ The todolist app will run on default port 5000.
 
 4. Download ginstall.sh to your local computer and run:
 
-`gcloud compute instances create test-inst --machine-type n1-standard-2 --image-family debian-8 --image-project debian-cloud --tags http-server --metadata startup-script=ginstall.sh`
+`gcloud compute instances create test-inst --machine-type n1-standard-2 --image-family debian-8 --image-project debian-cloud --tags http-server --metadata-from-file startup-script=./ginstall.sh`
