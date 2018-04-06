@@ -1,5 +1,4 @@
 #! /bin/bash 
-path=$(pwd)
 sudo su -
 apt-get update -y
 apt-get upgrade -y
@@ -8,13 +7,13 @@ pip3 install --upgrade flask
 
 # add -N so that wget do not duplicate copied files when reset 
 # copy necessary files
-sudo wget -N --directory-prefix=$path/templates/ \
+sudo wget -N --directory-prefix=$HOME/templates/ \
 https://raw.githubusercontent.com/tdoan5/gcloud/master/templates/index.html
 
-sudo wget -N --directory-prefix=$path/ \
+sudo wget -N --directory-prefix=$HOME/ \
 https://raw.githubusercontent.com/tdoan5/gcloud/master/todolist.db
 
-sudo wget -N --directory-prefix=$path/ \
+sudo wget -N --directory-prefix=$HOME/ \
 https://raw.githubusercontent.com/tdoan5/gcloud/firewall_rule/todolist.py
 
 # launch the app
