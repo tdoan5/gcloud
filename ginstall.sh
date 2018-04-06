@@ -19,7 +19,7 @@ sudo wget -N --directory-prefix=$path/ \
 https://raw.githubusercontent.com/tdoan5/gcloud/master/todolist.db
 
 sudo wget -N --directory-prefix=$path/ \
-https://raw.githubusercontent.com/tdoan5/gcloud/master/todolist.py
+https://raw.githubusercontent.com/tdoan5/gcloud/port_5000/todolist.py
 
 # launch the app
 sudo python3 todolist.py'
