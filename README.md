@@ -14,4 +14,6 @@ Files copied from Cloud Computing class:
 
 ### Script to create a VM on Google Cloud Platform and run a Flask app automatically:
 
-4. Done! ... will be availble as soon as possible!
+4. Download ginstall.sh to your local computer and run:
+
+`./ginstall.sh`
