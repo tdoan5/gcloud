@@ -1,8 +1,4 @@
-instName=use-port-5000
-gcloud compute instances create $instName \
---machine-type n1-standard-2 --image-family debian-8 \
---image-project debian-cloud --tags http-server \
---metadata startup-script='#! /bin/bash 
+#! /bin/bash 
 path=$(pwd)
 sudo su -
 apt-get update -y
@@ -22,4 +18,4 @@ sudo wget -N --directory-prefix=$path/ \
 https://raw.githubusercontent.com/tdoan5/gcloud/port_5000/todolist.py
 
 # launch the app
-python3 todolist.py'
+python3 todolist.py
