@@ -1,4 +1,4 @@
-instName=fcc-instance
+instName=use-port-80
 gcloud compute instances create $instName \
 --machine-type n1-standard-2 --image-family debian-8 \
 --image-project debian-cloud --tags http-server \
