@@ -12,7 +12,7 @@ Files copied from Cloud Computing class:
 
 3. todolist.py
 
-The todolist app will run on port 80.
+The todolist app will run on default port 5000.
 
 ### Script to create a VM on Google Cloud Platform and run a Flask app automatically:
 
